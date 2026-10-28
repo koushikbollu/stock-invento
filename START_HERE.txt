@@ -1,0 +1,85 @@
+STOCK INVENTO — LOCAL REVIEW PACKAGE
+
+LOCAL DEMO LOGIN
+Username: admin
+Password: admin123
+Login URL: http://127.0.0.1:8765/login (use your chosen port if different).
+These shared defaults are for the local demonstration workspace.
+An existing workspace keeps a changed password; see the detailed guide to reset it.
+
+1. Clone the repository or extract the complete ZIP into a writable folder.
+   Keep all files together.
+2. Use Python 3.10+; choose a supported release for new installs (see guide below).
+   No pip install, Node/npm, external account, API key, or GitHub is needed.
+3. Open the extracted folder containing run_demo.py, then start:
+
+   Windows: double-click START_WINDOWS.bat, or run: py -3 run_demo.py
+   macOS: double-click START_MAC.command, or run: python3 run_demo.py
+   Linux: run sh START_LINUX.sh, or: python3 run_demo.py
+
+   If a script will not open, use its Python command in a terminal.
+4. Open the local URL and sign in with admin / admin123. Keep the terminal open.
+5. Stop with Ctrl+C. Restarting preserves your local database and imports.
+   Sign out at the top right; restarting the server requires a new sign-in.
+
+Port busy: python3 run_demo.py --port 8766
+Fresh separate demo: python3 run_demo.py --data-dir var/final-review --port 8766
+Use an unused folder; this does not delete the existing var/demo database.
+On Windows, replace python3 with py -3 (or a working Python 3.10+ command).
+
+Default data: var/demo/inventory.db; reports: var/demo/export.
+Relative --data-dir paths start at the project folder. Absolute paths also work.
+An absolute path to run_demo.py can be invoked from any working directory.
+
+A fresh demo has 50 current events, 53 versions, 47 daily balance rows,
+3 intentional rejects, 4 negative closing rows, and 7 recorded scenario runs.
+Its named schema failure/recovery is a teaching example, not a failed server.
+Unexpected later errors still require review. Restart/import adds audit runs.
+Negative stock is an accepted-data warning, not a rejected row. Try ITEM-D/WH-C
+on January 2–4 or ITEM-E/WH-B on January 4. Earlier demos need a new data folder
+to see these updated examples; old immutable revisions are preserved.
+
+The main header's Import CSV button opens the import drawer.
+Close (×) or Escape dismisses it; reopening retains the draft on this page.
+After import, View this run's balance impact closes the drawer into Correction impact.
+Process guide and Achievements & verification are below the ledger, initially closed.
+Verification opens Achievements & verification.
+Catalogs load before movements using new IDs. Previewing alone changes nothing.
+
+TRY THE INCLUDED PRACTICE CSVs: data/import-practice/
+For clean results, choose an unused folder, for example:
+python3 run_demo.py --data-dir var/practice-review --port 8766
+Practice imports change that workspace; its totals then exceed the fresh demo.
+Open Import CSV, expand Using new item or location IDs?, select 00_items.csv and
+00_locations.csv together, then Validate & load catalogs. They add PRACTICE-ITEM
+(EA), PRACTICE-MAIN and PRACTICE-BRANCH, separate from the seeded demo records.
+Leave Publish through date blank to retain the demo's January 4 horizon.
+Import one movement file at a time; filter PRACTICE-ITEM on January 4 to compare:
+1. 01_receipts.csv: 2 accepted; MAIN 100.000, BRANCH 25.000.
+2. 02_issues_transfers_adjustments.csv: 3 accepted; MAIN 62.500, BRANCH 45.000.
+3. 03_backdated_correction.csv: 1 accepted; MAIN 82.500, BRANCH 45.000.
+Use View this run's balance impact to inspect the changed dates.
+Optional, continue in order:
+04_mixed_valid_and_invalid.csv: 1 accepted, 3 quarantined; BRANCH becomes 55.000.
+05_negative_stock.csv: 1 accepted; MAIN becomes -17.500 (accepted warning).
+06_fix_negative_stock.csv: 1 accepted; MAIN becomes 22.500; BRANCH stays 55.000.
+Replays accept 0 new versions and count valid rows as duplicates; invalid rows
+are quarantined again. Reusing these practice IDs keeps their existing history.
+Fixing practice stock does not clear the seeded demo's historical warnings.
+Full steps: data/import-practice/README.md. Expected answers (DO NOT upload):
+data/expected/import_practice_balances.csv
+Verify these files safely: python3 scripts/verify_practice_imports.py
+
+DETAILED SETUP, CLEAN DEMOS, BACKUP, AND TROUBLESHOOTING: docs/portable-setup.md
+APP WALKTHROUGH AND CORRECTION EXERCISE: docs/walkthrough.md
+BEGINNER PDF GUIDE: docs/Stock-Invento-Application-Guide.pdf
+SOURCE/QUANTITY SCHEMAS: docs/data-dictionary.md
+Run structured tests here: python3 scripts/run_tests.py --out var/test-results-new
+FINAL REVIEW: docs/final-review.md
+AUTHENTICATION RESULTS: docs/auth-test-report.md — 117 Python methods, 222 subtest checks,
+zero failures/errors/skips; 11 optional JavaScript checks; 8 browser scenarios.
+docs/test-report.md and docs/test-scenarios.md retain the earlier pre-login campaign.
+
+Do not copy a live database file alone; see the portable guide for safe backup.
+AI disclosure and prompt history are included; candidate personal review remains
+pending. Repository/portal publication status: docs/submission-status.md.
