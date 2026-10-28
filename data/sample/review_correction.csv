@@ -1,0 +1,2 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+receipt-a,3,2026-01-01,RECEIPT,ITEM-A,WH-A,,120.000,false

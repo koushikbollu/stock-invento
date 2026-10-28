@@ -1,0 +1,4 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+demo-invalid-precision,1,2026-01-04,RECEIPT,ITEM-C,WH-A,,1.0001,false
+demo-invalid-item,1,2026-01-04,RECEIPT,ITEM-UNKNOWN,WH-A,,5,false
+demo-invalid-transfer,1,2026-01-04,TRANSFER,ITEM-C,WH-A,WH-A,1,false

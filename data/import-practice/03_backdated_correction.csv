@@ -1,0 +1,2 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+practice-main-receipt,2,2026-01-01,RECEIPT,PRACTICE-ITEM,PRACTICE-MAIN,,120.000,false

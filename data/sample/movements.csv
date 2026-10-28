@@ -1,0 +1,8 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+receipt-a,1,2026-01-01,RECEIPT,ITEM-A,WH-A,,100,false
+receipt-b,1,2026-01-01,RECEIPT,ITEM-B,WH-A,,10.125,false
+issue-a,1,2026-01-02,ISSUE,ITEM-A,WH-A,,15,false
+transfer-a,1,2026-01-02,TRANSFER,ITEM-A,WH-A,WH-B,20,false
+adjust-a,1,2026-01-03,ADJUSTMENT,ITEM-A,WH-B,,-2.5,false
+receipt-dest,1,2026-01-04,RECEIPT,ITEM-A,WH-B,,7,false
+issue-b,1,2026-01-04,ISSUE,ITEM-B,WH-A,,0.125,false

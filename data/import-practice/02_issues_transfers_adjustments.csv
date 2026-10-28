@@ -1,0 +1,4 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+practice-main-issue,1,2026-01-02,ISSUE,PRACTICE-ITEM,PRACTICE-MAIN,,15.000,false
+practice-main-transfer,1,2026-01-02,TRANSFER,PRACTICE-ITEM,PRACTICE-MAIN,PRACTICE-BRANCH,20.000,false
+practice-main-adjustment,1,2026-01-02,ADJUSTMENT,PRACTICE-ITEM,PRACTICE-MAIN,,-2.500,false

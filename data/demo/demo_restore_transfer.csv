@@ -1,0 +1,2 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+demo-c-transfer-1,3,2026-01-01,TRANSFER,ITEM-C,WH-A,WH-B,20,false

@@ -1,0 +1,3 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+qa-browser-valid,1,2026-01-04,RECEIPT,ITEM-C,WH-C,,0.001,false
+<img src=x onerror=alert(1)>,1,2026-01-04,RECEIPT,ITEM-C,WH-C,,1.000,false

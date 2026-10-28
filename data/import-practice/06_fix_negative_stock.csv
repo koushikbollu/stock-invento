@@ -1,0 +1,2 @@
+event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void
+practice-negative-issue,2,2026-01-03,ISSUE,PRACTICE-ITEM,PRACTICE-MAIN,,60.000,false
