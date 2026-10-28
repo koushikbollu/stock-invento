@@ -1,0 +1,9 @@
+posting_id,event_id,revision,effective_date,item_id,location_id,receipts_milli,issues_milli,transfers_in_milli,transfers_out_milli,adjustments_milli
+adjust-a@1:0,adjust-a,1,2026-01-03,ITEM-A,WH-B,0,0,0,0,-2500
+issue-a@1:0,issue-a,1,2026-01-02,ITEM-A,WH-A,0,15000,0,0,0
+issue-b@1:0,issue-b,1,2026-01-04,ITEM-B,WH-A,0,125,0,0,0
+receipt-a@2:0,receipt-a,2,2026-01-01,ITEM-A,WH-A,110000,0,0,0,0
+receipt-b@1:0,receipt-b,1,2026-01-01,ITEM-B,WH-A,10125,0,0,0,0
+receipt-dest@1:0,receipt-dest,1,2026-01-04,ITEM-A,WH-B,7000,0,0,0,0
+transfer-a@1:0,transfer-a,1,2026-01-02,ITEM-A,WH-A,0,0,0,20000,0
+transfer-a@1:1,transfer-a,1,2026-01-02,ITEM-A,WH-B,0,0,20000,0,0

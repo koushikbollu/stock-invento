@@ -1,0 +1,25 @@
+{
+  "browser_scenarios": 8,
+  "commands": [
+    "python3 scripts/run_tests.py --out var/authentication-validation",
+    "node tests/ui_refresh.test.cjs"
+  ],
+  "errors": 0,
+  "evidence": [
+    "python-tests.json",
+    "junit.xml",
+    "unit-tests.txt",
+    "ui-helpers.txt",
+    "browser-checks.json",
+    "portable-check.json",
+    "login-preview.png"
+  ],
+  "failures": 0,
+  "passed": true,
+  "portable_authenticated_launch_passed": true,
+  "scope": "Current authenticated application. The earlier100-test rigorous campaign and100000-row benchmark remain separately labeled historical evidence.",
+  "skipped": 0,
+  "subtest_checks": 222,
+  "test_count": 117,
+  "ui_helper_checks": 11
+}

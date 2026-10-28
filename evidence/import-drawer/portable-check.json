@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "archive_sha256": "b30007c5d65cae224110b4bff876dbc25eb5a086d097c40cfb77b84bcff1087e",
+  "python": "3.14.6",
+  "checks": [
+    "Extracted ZIP into path with spaces; launched from different current directory",
+    "Anonymous API blocked; documented local login works",
+    "Fresh demo50events/53versions/47daily rows, all reconciliation passed",
+    "Exactly one import trigger; native drawer contains form",
+    "Served JavaScript equals final workspace source",
+    "Correction imported once; duplicate replay accepted0; closing85.000",
+    "Restart retained54versions and reconciliation; old session revoked"
+  ],
+  "scope": "macOS current Python only; archive before adding this proof artifact; final rebuild rechecks source hashes/CRC/manifest"
+}

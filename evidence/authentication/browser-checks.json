@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-27T23:52:46.740119+00:00",
+  "method": "Computer Use with actual browser form controls, incorrect and correct credentials, file chooser, authenticated import, sign out, browser history, and repeat sign in.",
+  "checks": [
+    {
+      "id": "AUTH-UI01",
+      "scenario": "Anonymous root navigation",
+      "status": "passed",
+      "observed": "The root redirected to /login and displayed the sign-in form."
+    },
+    {
+      "id": "AUTH-UI02",
+      "scenario": "Masked password and visibility control",
+      "status": "passed",
+      "observed": "Password input began masked; Show changed it to text and Hide restored masking."
+    },
+    {
+      "id": "AUTH-UI03",
+      "scenario": "Wrong password",
+      "status": "passed",
+      "observed": "A wrong password stayed on /login and displayed a generic incorrect-credentials message."
+    },
+    {
+      "id": "AUTH-UI04",
+      "scenario": "Successful admin login",
+      "status": "passed",
+      "observed": "The configured credentials opened the dashboard, identified admin, and retained 50 current events and 4 negative balance rows."
+    },
+    {
+      "id": "AUTH-UI05",
+      "scenario": "Authenticated inventory import",
+      "status": "passed",
+      "observed": "Real review_correction.csv selection and publication accepted 1 revision with 4 changed daily rows."
+    },
+    {
+      "id": "AUTH-UI06",
+      "scenario": "Sign out",
+      "status": "passed",
+      "observed": "Sign out returned to /login and removed access to the authenticated workspace."
+    },
+    {
+      "id": "AUTH-UI07",
+      "scenario": "Browser Back after sign out",
+      "status": "passed",
+      "observed": "Back returned to /login with no inventory dashboard DOM restored."
+    },
+    {
+      "id": "AUTH-UI08",
+      "scenario": "Sign in again and retain data",
+      "status": "passed",
+      "observed": "A second sign-in retained 54 versions and ITEM-A/WH-A closing 85.000; the next sign-out returned to the masked login form without document-level overflow at 1280 CSS pixels."
+    }
+  ],
+  "limitations": [
+    "Executed on macOS in the in-app browser. HTTP security and time boundaries have separate automated tests.",
+    "An isolated test database was used; the existing local review database was preserved."
+  ]
+}

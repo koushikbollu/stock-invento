@@ -1,0 +1,16 @@
+check_name,expected,actual,variance,passed,details
+source_to_postings_receipts,815.250,815.250,0.000,True,Highest non-void revision vs generated postings
+source_to_postings_issues,171.125,171.125,0.000,True,Highest non-void revision vs generated postings
+source_to_postings_transfers_in,112.375,112.375,0.000,True,Highest non-void revision vs generated postings
+source_to_postings_transfers_out,112.375,112.375,0.000,True,Highest non-void revision vs generated postings
+source_to_postings_adjustments,0.750,0.750,0.000,True,Highest non-void revision vs generated postings
+posting_row_count,63,63,0,True,Two legs per transfer; one for other movements
+posting_mapping_violations,0,0,0,True,"Each posting matches its current source event, date, item, location and movement type"
+transfer_conservation,112.375,112.375,0.000,True,Transfers conserve total stock
+daily_balance_equation_violations,0,0,0,True,Every row satisfies opening + net movement = closing
+opening_continuity_violations,0,0,0,True,Opening equals previous day's closing
+daily_movement_grain_violations,0,0,0,True,Daily movement columns equal posting totals at date/item/location grain
+first_day_opening_violations,0,0,0,True,First modeled day starts at zero
+item_closing_stock_violations,0,0,0,True,Each item's total closing equals its external net movement; units are never combined
+global_closing_stock,644.875,644.875,0.000,True,Arithmetic checksum across quantities; per-item checks carry physical meaning
+run_row_accounting_violations,0,0,0,True,Every consumed row has exactly one recorded outcome

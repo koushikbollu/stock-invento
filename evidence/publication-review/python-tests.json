@@ -1,0 +1,750 @@
+{
+  "architecture": "arm64",
+  "errors": 0,
+  "executed_at": "2026-10-28T15:42:14.059573+00:00",
+  "failures": 0,
+  "passed": true,
+  "python": "3.14.6",
+  "scope": "Executed Python test methods and unittest subtests. Browser, performance and package checks have separate evidence.",
+  "seconds": 13.595319,
+  "skipped": 0,
+  "source_sha256": {
+    "inventory/__init__.py": "0d9c3792729d563f167f8d3ebceb11e9db2676617662278d043cf42f946a116e",
+    "inventory/__main__.py": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+    "inventory/auth.py": "525a4bd6a99175381b5d85a6bb5ad2114e9132f12a7bd3344192e87a2adb893c",
+    "inventory/cli.py": "c37ecd1a07464e97b86f2a15b0672603967c01cced751a4a7220f28c53b1ceac",
+    "inventory/demo.py": "333115b8e20ea511f6afe21d945f702dbd95ab3f2518bfa40fcee746ad3c3766",
+    "inventory/generate.py": "f8e4180c9cb907cb906a33562a65aa3a42f7e788c7b9827541968fe8f25d0751",
+    "inventory/impact.py": "da359ab7150b2d8e1fd8052faa7c95d42e8e799a85e248dee0a2f1b0c7b0e354",
+    "inventory/model.py": "5bd84de5ca8751a0e67e774015d973ee66f369dca66feefa6cd3be0cfcf70e8d",
+    "inventory/pipeline.py": "c1e1a9646fed92753f2beb9166b93ced1f199c54189bb7e978d0fe8aad9cfab9",
+    "inventory/showcase.py": "8a7f76f7b029bd4493f154d7659502a7cbac6982cc9c8d1e685dd728d3def516",
+    "inventory/static/app.js": "564ce2d31df97331e3410138c6369aaafd1fbe16b981bdde541c023033c1368e",
+    "inventory/static/index.html": "0f110f6c145df40025edc69429f364259105fb470a6276635486c07e85fd9d94",
+    "inventory/static/login.css": "5f1c60ff8b12ec66a5b3c2bded6fae2f86630524370ffde4cd3935800d9da77b",
+    "inventory/static/login.html": "b4068620d6ad88758a952a92e3fcc6b3dc7f245a57d5b35681a4b70781b03cc8",
+    "inventory/static/login.js": "ba3387286cfd29adc2834c18277f8e8d66772f8bf195bbcd8f60dd6af307a6aa",
+    "inventory/static/style.css": "45fddf1f543fb69ea5df3005a669a74570a85619bd10b6ebd9ec35b99262c649",
+    "inventory/web.py": "7354bea9e29d521acd7e2f13bbb014df6f3e5bae4c5ddf57541c7e404e3beec1",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_auth.py": "849b7978965b2e79dbd48f10624689845c9d55e819524d2bc9feecaf5336f069",
+    "tests/test_changes.py": "2e935a212c8b19fb9e2ee1b9c93fcbb8b310f5d17c8a9c18522e6d2e0f1b10e3",
+    "tests/test_demo.py": "2c9779ab6788d9866f75c35f7b701141758b629718f5e83c438d3e8c4bb38174",
+    "tests/test_interface_acceptance.py": "876990cb6d00626012becf95dd4d49c997da0ddaf69b22f9866969a17f579586",
+    "tests/test_inventory_acceptance.py": "8897a535bbc5cbd42ef0f1225936871fb26e5c06df69ccb684c6c67b1361ea5d",
+    "tests/test_password_cli.py": "996f313143eb7c2bab7db231eac246627625155dffeb7582af0924f79cc1f6c3",
+    "tests/test_pipeline.py": "00998bb494dabdb12fd9524b70097e63dcbcd0fe395720fd1cee3b0e4961f050",
+    "tests/test_reporting.py": "edb179659461b2019b44e984649848d416dc68818e8a02ef7a33791613c480e1",
+    "tests/test_resilience_acceptance.py": "b1b053d0fae8a8bfeee6c6badf5d8a9c461559129d41422b1532a02b200e7292",
+    "tests/test_startup.py": "92b70d4bbf0ac9aa5ac90fd97960a21ee1705edace7944fe4596db4b13e035bd",
+    "tests/test_web.py": "93c5c2b0f0d30d5116850303a76ab0f8bb22c1ce8344e70c2eb1abd6cd771290",
+    "tests/ui_refresh.test.cjs": "5c3dea742e0c4f3d3a4b6ebd5ecaaeab1418a83b643d210a6af231269c597c00"
+  },
+  "subtest_checks": 222,
+  "system": "Darwin",
+  "tests": [
+    {
+      "seconds": 0.121332,
+      "status": "passed",
+      "subtest_checks": 12,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a01_anonymous_data_routes_and_mutations_require_login"
+    },
+    {
+      "seconds": 0.233669,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a02_wrong_credentials_deny_and_correct_credentials_unlock_session"
+    },
+    {
+      "seconds": 0.092467,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a03_login_needs_its_own_cookie_token_and_local_origin"
+    },
+    {
+      "seconds": 0.168076,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a04_preauth_and_forged_cookies_cannot_authorize_mutation"
+    },
+    {
+      "seconds": 0.172964,
+      "status": "passed",
+      "subtest_checks": 3,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a05_authenticated_mutations_keep_origin_and_csrf_guards"
+    },
+    {
+      "seconds": 0.177824,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a06_logout_invalidates_cookie_and_requires_authentication_to_reopen"
+    },
+    {
+      "seconds": 0.252192,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a07_new_login_rotates_session_and_rejects_previous_cookie"
+    },
+    {
+      "seconds": 0.248461,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a08_server_restart_invalidates_memory_sessions_but_credentials_persist"
+    },
+    {
+      "seconds": 0.48883,
+      "status": "passed",
+      "subtest_checks": 5,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a09_repeated_bad_passwords_throttle_with_retry_after"
+    },
+    {
+      "seconds": 0.188602,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthHttpAcceptanceTest.test_auth_a10_idle_session_expiry_protects_http_data_routes"
+    },
+    {
+      "seconds": 0.307628,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthManagerAcceptanceTest.test_auth_u01_bootstrap_hash_is_salted_persistent_and_excluded_from_exports"
+    },
+    {
+      "seconds": 0.504483,
+      "status": "passed",
+      "subtest_checks": 4,
+      "test_id": "tests.test_auth.AuthManagerAcceptanceTest.test_auth_u02_password_replacement_validates_length_and_survives_restart"
+    },
+    {
+      "seconds": 0.213337,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthManagerAcceptanceTest.test_auth_u03_idle_absolute_and_preauth_expiry_have_exact_boundaries"
+    },
+    {
+      "seconds": 0.548513,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_auth.AuthManagerAcceptanceTest.test_auth_u04_throttle_is_per_client_and_recovers_at_window_boundary"
+    },
+    {
+      "seconds": 0.023749,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_before_after_evidence_is_retained_after_later_publications"
+    },
+    {
+      "seconds": 0.011055,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_delta_between_int64_closings_preserves_wider_exact_integer"
+    },
+    {
+      "seconds": 0.02776,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_export_contains_change_headers_even_when_empty_and_retains_exact_rows"
+    },
+    {
+      "seconds": 0.018956,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_failed_publication_has_no_snapshot_or_change_rows"
+    },
+    {
+      "seconds": 0.008839,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_first_publication_records_all_added_business_rows"
+    },
+    {
+      "seconds": 0.011918,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_identical_rerun_has_recorded_empty_snapshot"
+    },
+    {
+      "seconds": 0.015721,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_legacy_run_migration_distinguishes_unavailable_from_recorded_no_change"
+    },
+    {
+      "seconds": 0.010828,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_moving_date_and_location_records_removed_and_added_rows"
+    },
+    {
+      "seconds": 0.008092,
+      "status": "passed",
+      "subtest_checks": 12,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_pagination_and_unknown_run_validation"
+    },
+    {
+      "seconds": 0.011586,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_pagination_returns_stable_rows_and_full_summary"
+    },
+    {
+      "seconds": 0.014252,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_receipt_correction_changes_four_days_and_excludes_other_series"
+    },
+    {
+      "seconds": 0.03674,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_same_closing_with_changed_movement_columns_is_still_a_change"
+    },
+    {
+      "seconds": 0.013756,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_changes.ChangeEvidenceTest.test_void_retains_before_values_for_removed_series"
+    },
+    {
+      "seconds": 0.090329,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_coincidental_user_template_filenames_are_never_claimed_as_seeded_runs"
+    },
+    {
+      "seconds": 0.103402,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_completed_legacy_marker_does_not_require_private_progress"
+    },
+    {
+      "seconds": 0.000843,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_curated_file_has_exactly_fifty_distinct_events_and_preserves_sample_prefix"
+    },
+    {
+      "seconds": 0.107509,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_each_teaching_scenario_has_real_retained_run_evidence"
+    },
+    {
+      "seconds": 0.102566,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_expected_failure_commit_before_checkpoint_is_recovered_without_extra_failures"
+    },
+    {
+      "seconds": 0.083103,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_fresh_default_demo_publishes_fifty_events_and_real_quality_examples"
+    },
+    {
+      "seconds": 0.088732,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_original_series_match_existing_oracle_and_new_series_match_hand_calculation"
+    },
+    {
+      "seconds": 0.115137,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_partial_scenario_failure_leaves_no_marker_and_business_retries_safely"
+    },
+    {
+      "seconds": 0.115117,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_repeat_demo_accepts_no_new_versions_and_preserves_business_values"
+    },
+    {
+      "seconds": 0.112735,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_repeat_demo_retains_additional_existing_user_events"
+    },
+    {
+      "seconds": 0.104416,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_restart_immediately_before_recovery_reuses_diagnostic_runs"
+    },
+    {
+      "seconds": 0.087194,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_review_revision_120_preserves_fifty_events_and_raises_original_series_to_85"
+    },
+    {
+      "seconds": 0.056806,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_unexpected_pipeline_failure_still_propagates_without_completion_marker"
+    },
+    {
+      "seconds": 0.103899,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_demo.DefaultDemoTest.test_validation_commit_before_checkpoint_is_recovered_without_duplicate_rejects"
+    },
+    {
+      "seconds": 0.421736,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.CliAcceptanceTest.test_cli_a01_documented_workflow_matches_oracle_and_exports"
+    },
+    {
+      "seconds": 0.400408,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.CliAcceptanceTest.test_cli_a02_exit_two_publishes_valid_rows_and_safe_replay"
+    },
+    {
+      "seconds": 0.556671,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.CliAcceptanceTest.test_cli_a03_malformed_csv_rolls_back_then_retry_succeeds"
+    },
+    {
+      "seconds": 0.514539,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.CliAcceptanceTest.test_cli_a04_schema_and_invalid_horizon_are_observable_without_state_loss"
+    },
+    {
+      "seconds": 0.158755,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.CliAcceptanceTest.test_cli_a05_missing_database_fails_without_creating_it"
+    },
+    {
+      "seconds": 0.179136,
+      "status": "passed",
+      "subtest_checks": 7,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b01_malformed_json_utf8_and_wrong_shapes_are_nonmutating"
+    },
+    {
+      "seconds": 0.17163,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b02_malformed_csv_after_valid_row_is_atomic_and_retryable"
+    },
+    {
+      "seconds": 1.170733,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b03_ten_mib_utf8_boundary_is_enforced_over_http"
+    },
+    {
+      "seconds": 0.237879,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b04_reader_sees_old_snapshot_while_import_is_atomic_and_busy"
+    },
+    {
+      "seconds": 0.182157,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b05_publication_failure_preserves_state_and_releases_import_lock"
+    },
+    {
+      "seconds": 0.169592,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_interface_acceptance.HttpAcceptanceTest.test_http_b06_html_like_source_values_stay_data_with_browser_defenses"
+    },
+    {
+      "seconds": 0.032935,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_atomic_backdated_transfer_replacement_rolls_back_every_account_and_retries"
+    },
+    {
+      "seconds": 0.040298,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_canonical_duplicates_conflicts_and_rejected_rows_do_not_replace_accepted_versions"
+    },
+    {
+      "seconds": 0.026964,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_export_keeps_one_snapshot_when_another_writer_commits_mid_export"
+    },
+    {
+      "seconds": 0.200339,
+      "status": "passed",
+      "subtest_checks": 3,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_full_replacement_revision_matrix_is_arrival_order_independent"
+    },
+    {
+      "seconds": 0.010704,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_negative_stock_carries_exact_fractional_quantities_through_gap_days"
+    },
+    {
+      "seconds": 0.010624,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_per_item_reconciliation_detects_errors_hidden_by_unchanged_global_checksum"
+    },
+    {
+      "seconds": 0.024539,
+      "status": "passed",
+      "subtest_checks": 4,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_replacement_void_and_restore_remove_obsolete_series_and_leading_days"
+    },
+    {
+      "seconds": 0.497944,
+      "status": "passed",
+      "subtest_checks": 54,
+      "test_id": "tests.test_inventory_acceptance.InventoryAcceptanceTest.test_seeded_shuffled_batches_match_independent_integer_daily_oracle"
+    },
+    {
+      "seconds": 0.298379,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_password_cli.PasswordCliTest.test_hidden_prompt_changes_password_without_printing_it_or_resetting_on_startup"
+    },
+    {
+      "seconds": 0.091094,
+      "status": "passed",
+      "subtest_checks": 2,
+      "test_id": "tests.test_password_cli.PasswordCliTest.test_mismatch_or_short_password_preserves_existing_credentials"
+    },
+    {
+      "seconds": 0.005723,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_password_cli.PasswordCliTest.test_nonexistent_database_does_not_prompt_or_create_a_file"
+    },
+    {
+      "seconds": 0.661703,
+      "status": "passed",
+      "subtest_checks": 100,
+      "test_id": "tests.test_pipeline.GeneratorTest.test_100k_generator_covers_all_types_and_source_locations_for_every_item"
+    },
+    {
+      "seconds": 0.03051,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.GeneratorTest.test_reproducible_row_count_types_and_intentional_quality_cases"
+    },
+    {
+      "seconds": 0.002128,
+      "status": "passed",
+      "subtest_checks": 3,
+      "test_id": "tests.test_pipeline.GeneratorTest.test_zero_and_invalid_row_counts"
+    },
+    {
+      "seconds": 0.019766,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_backdated_quantity_correction_recalculates_later_days"
+    },
+    {
+      "seconds": 0.010055,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_calendar_gap_includes_leap_day"
+    },
+    {
+      "seconds": 0.008602,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_catalog_duplicate_and_unit_changes_rollback_all_catalog_additions"
+    },
+    {
+      "seconds": 0.02512,
+      "status": "passed",
+      "subtest_checks": 4,
+      "test_id": "tests.test_pipeline.InventoryTest.test_changed_missing_duplicate_or_empty_header_fails_observably"
+    },
+    {
+      "seconds": 0.014358,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_conflicting_same_version_is_quarantined"
+    },
+    {
+      "seconds": 0.021257,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_correction_replaces_date_type_and_location"
+    },
+    {
+      "seconds": 0.012906,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_correction_sample_matches_separate_hand_computed_oracle"
+    },
+    {
+      "seconds": 0.016024,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_duplicate_import_is_idempotent_including_decimal_normalization"
+    },
+    {
+      "seconds": 0.014534,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_empty_batch_preserves_existing_balances"
+    },
+    {
+      "seconds": 0.018545,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_failure_rolls_back_ledger_and_publication_then_retry_succeeds"
+    },
+    {
+      "seconds": 0.019418,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_fatal_csv_after_valid_row_rolls_back_and_retains_raw_audit"
+    },
+    {
+      "seconds": 0.007782,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_header_only_input_is_valid"
+    },
+    {
+      "seconds": 0.014621,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_invalid_horizon_fails_before_mutation_with_zero_consumed_rows"
+    },
+    {
+      "seconds": 0.008655,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_last_supported_calendar_date_can_be_published"
+    },
+    {
+      "seconds": 0.011281,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_later_through_cannot_truncate_published_horizon"
+    },
+    {
+      "seconds": 0.0108,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_latest_event_extends_horizon_and_gap_days"
+    },
+    {
+      "seconds": 0.010593,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_malformed_rows_are_quarantined_while_valid_rows_commit"
+    },
+    {
+      "seconds": 0.008517,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_maximum_quantity_and_fraction_are_exact"
+    },
+    {
+      "seconds": 0.009489,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_negative_stock_is_allowed_and_visibly_flagged"
+    },
+    {
+      "seconds": 0.01497,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_older_revision_arriving_later_cannot_replace_newer_revision"
+    },
+    {
+      "seconds": 0.01619,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_raw_record_outcomes_and_accounting_survive_mixed_batch_failure_retry"
+    },
+    {
+      "seconds": 0.010031,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_reconciliation_detects_same_net_daily_measure_corruption"
+    },
+    {
+      "seconds": 0.011071,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_sample_matches_hand_computed_oracle_and_equation"
+    },
+    {
+      "seconds": 0.04292,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_shuffled_revisions_and_split_batches_match_single_rebuild"
+    },
+    {
+      "seconds": 0.018586,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_transfer_correction_updates_both_legs"
+    },
+    {
+      "seconds": 0.016685,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_void_replaces_contribution_and_later_revision_can_restore"
+    },
+    {
+      "seconds": 0.009871,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_pipeline.InventoryTest.test_wrong_row_width_rejects_only_bad_rows"
+    },
+    {
+      "seconds": 0.002651,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_reporting.ReportRunnerAcceptanceTest.test_failed_rerun_invalidates_old_pass_artifacts"
+    },
+    {
+      "seconds": 0.012909,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_reporting.ReportRunnerAcceptanceTest.test_success_writes_matching_json_junit_and_clears_old_failure_log"
+    },
+    {
+      "seconds": 0.018142,
+      "status": "passed",
+      "subtest_checks": 2,
+      "test_id": "tests.test_resilience_acceptance.ResilienceAcceptanceTest.test_daily_equation_remains_exact_when_intermediate_sum_exceeds_int64"
+    },
+    {
+      "seconds": 0.136509,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_resilience_acceptance.ResilienceAcceptanceTest.test_hard_process_death_rolls_back_uncommitted_targets_and_retry_recovers"
+    },
+    {
+      "seconds": 0.026565,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_resilience_acceptance.ResilienceAcceptanceTest.test_posting_ids_are_deterministic_and_audit_ids_are_unique_iso_timestamps"
+    },
+    {
+      "seconds": 0.014033,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_resilience_acceptance.ResilienceAcceptanceTest.test_same_millisecond_runs_share_one_latest_audit_order"
+    },
+    {
+      "seconds": 0.002792,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_absolute_folder_with_spaces_is_honored"
+    },
+    {
+      "seconds": 0.000623,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_browser_opens_only_after_server_is_bound"
+    },
+    {
+      "seconds": 0.00037,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_busy_port_does_not_open_an_unrelated_service"
+    },
+    {
+      "seconds": 0.001075,
+      "status": "passed",
+      "subtest_checks": 3,
+      "test_id": "tests.test_startup.StartupTest.test_invalid_port_is_rejected_before_seeding"
+    },
+    {
+      "seconds": 0.000932,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_no_browser_and_relative_folder_work_from_another_directory"
+    },
+    {
+      "seconds": 0.058947,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_old_python_receives_clear_message_before_application_import"
+    },
+    {
+      "seconds": 0.001238,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_startup.StartupTest.test_unavailable_browser_keeps_server_usable"
+    },
+    {
+      "seconds": 0.000512,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.ShowcaseTest.test_missing_evidence_never_claims_verification"
+    },
+    {
+      "seconds": 0.001768,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.ShowcaseTest.test_recorded_evidence_is_parsed_without_hardcoded_numbers"
+    },
+    {
+      "seconds": 0.175668,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_bad_schema_fails_without_replacing_previous_balances"
+    },
+    {
+      "seconds": 0.18486,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_catalog_import_is_atomic_and_supports_equal_filenames"
+    },
+    {
+      "seconds": 0.182722,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_csv_import_retains_before_after_and_replay_is_zero_change"
+    },
+    {
+      "seconds": 0.16538,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_default_demo_downloads_have_fifty_distinct_movements_and_matching_catalogs"
+    },
+    {
+      "seconds": 0.196988,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_ordinary_workspaces_do_not_claim_seeded_demo_examples"
+    },
+    {
+      "seconds": 0.185456,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_origin_token_and_host_guards_block_mutation"
+    },
+    {
+      "seconds": 0.16507,
+      "status": "passed",
+      "subtest_checks": 4,
+      "test_id": "tests.test_web.WebTest.test_rejects_bad_filename_payload_size_and_content_type"
+    },
+    {
+      "seconds": 0.171395,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_sample_routes_and_changes_pagination_validation"
+    },
+    {
+      "seconds": 0.180659,
+      "status": "passed",
+      "subtest_checks": 0,
+      "test_id": "tests.test_web.WebTest.test_valid_rows_publish_with_visible_quarantine"
+    }
+  ],
+  "tests_run": 117
+}

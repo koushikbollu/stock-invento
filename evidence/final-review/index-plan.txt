@@ -1,0 +1,3 @@
+SCAN d
+CORRELATED SCALAR SUBQUERY 1
+SEARCH p USING COVERING INDEX balances_account_date (item_id=? AND location_id=? AND balance_date<?)

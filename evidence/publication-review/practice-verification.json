@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-28T15:42:27.933330+00:00",
+  "python": "3.14.6",
+  "system": "Darwin",
+  "scope": "Actual included CSV sequence, independent answer sheet and replay in a temporary seeded workspace; no user database touched",
+  "catalog_files": 2,
+  "movement_files": 6,
+  "balance_rows_checked": 48,
+  "missing_catalog_rows_quarantined": 2,
+  "repeated_catalog_load_identical": true,
+  "stages": [
+    {
+      "file": "01_receipts.csv",
+      "passed": true,
+      "accepted": 2,
+      "rejected": 0,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 2,
+      "replay_rejected": 0,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    },
+    {
+      "file": "02_issues_transfers_adjustments.csv",
+      "passed": true,
+      "accepted": 3,
+      "rejected": 0,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 3,
+      "replay_rejected": 0,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    },
+    {
+      "file": "03_backdated_correction.csv",
+      "passed": true,
+      "accepted": 1,
+      "rejected": 0,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 1,
+      "replay_rejected": 0,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    },
+    {
+      "file": "04_mixed_valid_and_invalid.csv",
+      "passed": true,
+      "accepted": 1,
+      "rejected": 3,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 1,
+      "replay_rejected": 3,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    },
+    {
+      "file": "05_negative_stock.csv",
+      "passed": true,
+      "accepted": 1,
+      "rejected": 0,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 1,
+      "replay_rejected": 0,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    },
+    {
+      "file": "06_fix_negative_stock.csv",
+      "passed": true,
+      "accepted": 1,
+      "rejected": 0,
+      "balance_rows_checked": 8,
+      "reconciliation_checks": 15,
+      "replay_accepted": 0,
+      "replay_duplicates": 1,
+      "replay_rejected": 0,
+      "replay_changed_balance_rows": 0,
+      "original_demo_balances_unchanged": true
+    }
+  ],
+  "input_sha256": {
+    "data/import-practice/00_items.csv": "cf3c86b41a927eb76b4ce2087556f6f49c45108d7a457ebe0d7e2d0459d39396",
+    "data/import-practice/00_locations.csv": "ec65d5ffc08d8ade1532dbe934a0df2bd703aea9e30bd439d2a24dd59035ba4f",
+    "data/import-practice/01_receipts.csv": "6b48c43512a5fd9b448f112bcab0bb1b3c34d0343283e6035764b22327129a90",
+    "data/import-practice/02_issues_transfers_adjustments.csv": "d6b21a0d997cf5c8d034346ab3f56be9d1d41f435893982d11abf4dab0335f16",
+    "data/import-practice/03_backdated_correction.csv": "b3112814b9bab59e10ce3c2b8c345fc2a2693bc80cbf8de6bd3ba0d4824a5c5f",
+    "data/import-practice/04_mixed_valid_and_invalid.csv": "365589aeb93438ed219a87275ddaf57e334e190ae9ff49daa82cf2cf0b97d437",
+    "data/import-practice/05_negative_stock.csv": "dbbfae48cadc47c84d7ed4abcdc56816cb5d612e4c1bd42c444816dd1caf56b8",
+    "data/import-practice/06_fix_negative_stock.csv": "08a5c0337457a240cf8c662e45016828d6945f917f118ff4836ad47ed5146d14",
+    "data/expected/import_practice_balances.csv": "9f8e8fee776a237de668ca3a0ee34c80946d318a4b29499f8d1d8291cd3f1d33"
+  }
+}

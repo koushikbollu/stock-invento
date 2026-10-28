@@ -1,0 +1,31 @@
+{
+  "commands": [
+    "python3 -m unittest discover -s tests -v",
+    "python3 scripts/verify.py --rows 100000 --out var/rigorous-validation",
+    "python3 scripts/run_tests.py --out var/rigorous-validation",
+    "node tests/ui_refresh.test.cjs"
+  ],
+  "corrected_oracle_passed": true,
+  "correction_impact_retained": true,
+  "evidence": [
+    "unit-tests.txt",
+    "python-tests.json",
+    "junit.xml",
+    "initial/report.json",
+    "corrected/report.json",
+    "performance.json",
+    "correction-impact.json",
+    "generator-coverage.json",
+    "ui-helpers.txt"
+  ],
+  "final_python_suite": "python-tests.json",
+  "generator_version": "2",
+  "initial_oracle_passed": true,
+  "large_run_reconciliation_passed": true,
+  "note": "The 100,000-row benchmark ran after both runtime fixes. The final 100-test suite then included the concurrent-export and report-reliability regressions; runtime and test source hashes are recorded in python-tests.json.",
+  "rerun_business_outputs_identical": true,
+  "subtest_checks": 196,
+  "test_count": 100,
+  "tests_passed": true,
+  "ui_helper_checks": 11
+}

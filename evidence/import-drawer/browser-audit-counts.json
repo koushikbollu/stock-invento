@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "scope": "Isolated synthetic QA database only; no credentials or runtime database included",
+  "runs": {
+    "bad-schema.csv": [
+      {
+        "source_file": "bad-schema.csv",
+        "status": "failed",
+        "input_count": 0,
+        "accepted_count": 0,
+        "duplicate_count": 0,
+        "rejected_count": 0,
+        "rolled_back_count": 0
+      }
+    ],
+    "review_correction.csv": [
+      {
+        "source_file": "review_correction.csv",
+        "status": "succeeded",
+        "input_count": 1,
+        "accepted_count": 1,
+        "duplicate_count": 0,
+        "rejected_count": 0,
+        "rolled_back_count": 0
+      },
+      {
+        "source_file": "review_correction.csv",
+        "status": "succeeded",
+        "input_count": 1,
+        "accepted_count": 0,
+        "duplicate_count": 1,
+        "rejected_count": 0,
+        "rolled_back_count": 0
+      }
+    ],
+    "browser_mixed.csv": [
+      {
+        "source_file": "browser_mixed.csv",
+        "status": "succeeded_with_rejects",
+        "input_count": 2,
+        "accepted_count": 1,
+        "duplicate_count": 0,
+        "rejected_count": 1,
+        "rolled_back_count": 0
+      }
+    ],
+    "pending-import.csv": [
+      {
+        "source_file": "pending-import.csv",
+        "status": "succeeded",
+        "input_count": 50000,
+        "accepted_count": 50000,
+        "duplicate_count": 0,
+        "rejected_count": 0,
+        "rolled_back_count": 0
+      }
+    ]
+  }
+}

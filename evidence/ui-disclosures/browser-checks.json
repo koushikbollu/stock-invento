@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-28T00:13:37.642747+00:00",
+  "method": "Computer Use controls and actual report refreshes; dynamic states came from real imports into a separate authenticated workspace.",
+  "checks": [
+    {
+      "scenario": "All nine disclosures",
+      "observed": "Six Demo example notes, Seeded demo, Review required and import guidance start collapsed; native click/Enter expand/collapse exposes their existing content.",
+      "passed": true
+    },
+    {
+      "scenario": "Notice placement",
+      "observed": "Review required and Seeded demo appear after all four metric cards and before the inventory ledger.",
+      "passed": true
+    },
+    {
+      "scenario": "Single status heading",
+      "observed": "Review required appears once; the expanded body contains only the actual warning counts.",
+      "passed": true
+    },
+    {
+      "scenario": "Refresh and navigation",
+      "observed": "Open native disclosures survive report refresh and tab navigation. Collapsing help does not change inventory filters.",
+      "passed": true
+    },
+    {
+      "scenario": "Existing example actions",
+      "observed": "View/Close example restores all filters; receipt comparison shows4changedrows; safe-replay comparison shows0changedrows.",
+      "passed": true
+    },
+    {
+      "scenario": "Final layout",
+      "observed": "All nine panels left collapsed;50events,47dailyrows,3rejects,4negativebalance rows retained; no document overflow at662CSSpixels.",
+      "passed": true
+    }
+  ],
+  "dynamic_status_sequence": [
+    {
+      "state": "Empty workspace",
+      "label": "Ready",
+      "severity": "normal",
+      "negative_days": 0,
+      "rejected_rows": 0,
+      "detail": "Ready for ingestion \u00b7 no pipeline runs recorded yet"
+    },
+    {
+      "state": "Receipt10.000, no other input",
+      "label": "Up to date",
+      "severity": "normal",
+      "negative_days": 0,
+      "rejected_rows": 0,
+      "detail": "Published ledger \u00b7 15 reconciliation checks passed"
+    },
+    {
+      "state": "Issue12.000 onJanuary2, throughJanuary4",
+      "label": "Review required",
+      "severity": "warning",
+      "negative_days": 3,
+      "rejected_rows": 0,
+      "detail": "3 negative balance days"
+    },
+    {
+      "state": "Replace issue with revision2 quantity5.000",
+      "label": "Up to date",
+      "severity": "normal",
+      "negative_days": 0,
+      "rejected_rows": 0,
+      "detail": "Published ledger \u00b7 15 reconciliation checks passed"
+    },
+    {
+      "state": "Unknown-item receipt is quarantined",
+      "label": "Review required",
+      "severity": "warning",
+      "negative_days": 0,
+      "rejected_rows": 1,
+      "detail": "1 rejected source row"
+    }
+  ],
+  "limitations": [
+    "Browser observations used macOS and a662CSSpixel review viewport.",
+    "Only display guidance changed. No new unit tests were added for this reversible UI adjustment. The existing full regression suite and11JavaScript helpers passed.",
+    "Rejected rows and failed ingestion attempts are retained audit records; those counts do not automatically disappear when later data is corrected."
+  ]
+}

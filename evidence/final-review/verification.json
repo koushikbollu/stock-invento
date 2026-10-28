@@ -1,0 +1,25 @@
+{
+  "commands": [
+    "python3 -m unittest discover -s tests -v",
+    "python3 scripts/verify.py --rows 100000 --out var/final-audit"
+  ],
+  "corrected_oracle_passed": true,
+  "correction_impact_retained": true,
+  "evidence": [
+    "unit-tests.txt",
+    "python-tests.json",
+    "junit.xml",
+    "initial/report.json",
+    "corrected/report.json",
+    "performance.json",
+    "correction-impact.json",
+    "generator-coverage.json"
+  ],
+  "generator_version": "2",
+  "initial_oracle_passed": true,
+  "large_run_reconciliation_passed": true,
+  "rerun_business_outputs_identical": true,
+  "subtest_checks": 222,
+  "test_count": 117,
+  "tests_passed": true
+}

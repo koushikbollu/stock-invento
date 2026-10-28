@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-28T09:56:46.977Z",
+  "environment": "Codex in-app browser on macOS; isolated synthetic QA workspace",
+  "cases": [
+    {
+      "id": "DRAWER-01",
+      "result": "PASS",
+      "scenario": "One header Import CSV action; import form hidden at initial load"
+    },
+    {
+      "id": "DRAWER-02",
+      "result": "PASS",
+      "scenario": "Open drawer, focus Close, choose CSV, show literal preview"
+    },
+    {
+      "id": "DRAWER-03",
+      "result": "PASS",
+      "scenario": "Keyboard stays within modal; Escape returns focus to Import CSV; draft date/file preview remain on reopening"
+    },
+    {
+      "id": "DRAWER-04",
+      "result": "PASS",
+      "scenario": "Actual correction import: accepted1, no rejects, four changed days; View balance impact closes drawer and focuses selected Correction impact tab"
+    },
+    {
+      "id": "DRAWER-05",
+      "result": "PASS",
+      "scenario": "Client rejects empty, malformed UTF-8 and >10MiB files; submit disabled; clear messages",
+      "observed": [
+        {
+          "file": "empty.csv",
+          "message": "empty.csv is empty. Choose a CSV with its required header row.",
+          "disabled": true
+        },
+        {
+          "file": "bad-utf8.csv",
+          "message": "This file could not be read as UTF-8 CSV. Save it with UTF-8 encoding, then choose it again.",
+          "disabled": true
+        },
+        {
+          "file": "oversized.csv",
+          "message": "oversized.csv is larger than 10 MiB. Use the CLI for larger batches, or choose a smaller CSV.",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "DRAWER-06",
+      "result": "PASS",
+      "scenario": "Bad CSV schema returns visible failed run; drawer remains usable and no version published"
+    },
+    {
+      "id": "DRAWER-07",
+      "result": "PASS",
+      "scenario": "Retry after fatal failure succeeds; duplicate correction accepts0 and changes0; Close -> Refresh data -> reopen preserves file and result"
+    },
+    {
+      "id": "DRAWER-08",
+      "result": "PASS",
+      "scenario": "Mixed upload publishes valid0.001 record, quarantines HTML-like ID literally, warning+counts visible"
+    },
+    {
+      "id": "DRAWER-09",
+      "result": "PASS",
+      "scenario": "Single catalog disables submit; selected item catalog and disclosure survive close; both files load atomically (5 items/3 locations)"
+    },
+    {
+      "id": "DRAWER-10",
+      "result": "PASS",
+      "scenario": "Close/reopen during real 50,000-row import preserves request: Working remains, controls locked, Close enabled; final result accepted50,000, no duplicated submission"
+    },
+    {
+      "id": "DRAWER-11",
+      "result": "PASS",
+      "scenario": "Desktop1280x900 drawer right-aligned660px, no horizontal overflow; backdrop click closes and restores opener focus"
+    },
+    {
+      "id": "DRAWER-12",
+      "result": "PASS",
+      "scenario": "Mobile390x844 full-width drawer has no horizontal overflow; reference forms scroll; sticky Close remains in viewport"
+    },
+    {
+      "id": "DRAWER-13",
+      "result": "PASS",
+      "scenario": "Legacy #import-section link opens drawer; close normalizes to #main; five repeated open/Escape cycles preserve closed state and aria-expanded=false"
+    },
+    {
+      "id": "DRAWER-14",
+      "result": "PASS",
+      "scenario": "HTML-like quarantined payload remains literal text (zero inserted images); Sign out revokes access and legacy import link redirects to login"
+    }
+  ],
+  "limitations": [
+    "Browser proof is bounded to the recorded scenarios; it does not prove every possible input or browser.",
+    "Mobile checks use viewport emulation, not physical devices."
+  ]
+}

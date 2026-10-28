@@ -1,0 +1,2 @@
+run_id,source_file,started_at,finished_at,status,input_count,accepted_count,duplicate_count,rejected_count,rolled_back_count,output_count,duration_ms,error,published_through,impact_recorded
+41d8dc57-4312-4d54-9747-e11a525134d0,movements.csv,2026-10-27T22:11:28.546+00:00,2026-10-27T22:11:28.549+00:00,succeeded,7,7,0,0,0,11,3,,2026-01-04,1

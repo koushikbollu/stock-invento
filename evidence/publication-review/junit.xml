@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="Stock Invento Python acceptance and regression" tests="117" failures="0" errors="0" skipped="0" time="13.595319" timestamp="2026-10-28T15:42:14.059573+00:00">
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a01_anonymous_data_routes_and_mutations_require_login" time="0.121332">
+    <properties>
+      <property name="subtest_checks" value="12" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a02_wrong_credentials_deny_and_correct_credentials_unlock_session" time="0.233669">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a03_login_needs_its_own_cookie_token_and_local_origin" time="0.092467">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a04_preauth_and_forged_cookies_cannot_authorize_mutation" time="0.168076">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a05_authenticated_mutations_keep_origin_and_csrf_guards" time="0.172964">
+    <properties>
+      <property name="subtest_checks" value="3" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a06_logout_invalidates_cookie_and_requires_authentication_to_reopen" time="0.177824">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a07_new_login_rotates_session_and_rejects_previous_cookie" time="0.252192">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a08_server_restart_invalidates_memory_sessions_but_credentials_persist" time="0.248461">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a09_repeated_bad_passwords_throttle_with_retry_after" time="0.48883">
+    <properties>
+      <property name="subtest_checks" value="5" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthHttpAcceptanceTest" name="test_auth_a10_idle_session_expiry_protects_http_data_routes" time="0.188602">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthManagerAcceptanceTest" name="test_auth_u01_bootstrap_hash_is_salted_persistent_and_excluded_from_exports" time="0.307628">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthManagerAcceptanceTest" name="test_auth_u02_password_replacement_validates_length_and_survives_restart" time="0.504483">
+    <properties>
+      <property name="subtest_checks" value="4" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthManagerAcceptanceTest" name="test_auth_u03_idle_absolute_and_preauth_expiry_have_exact_boundaries" time="0.213337">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_auth.AuthManagerAcceptanceTest" name="test_auth_u04_throttle_is_per_client_and_recovers_at_window_boundary" time="0.548513">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_before_after_evidence_is_retained_after_later_publications" time="0.023749">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_delta_between_int64_closings_preserves_wider_exact_integer" time="0.011055">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_export_contains_change_headers_even_when_empty_and_retains_exact_rows" time="0.02776">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_failed_publication_has_no_snapshot_or_change_rows" time="0.018956">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_first_publication_records_all_added_business_rows" time="0.008839">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_identical_rerun_has_recorded_empty_snapshot" time="0.011918">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_legacy_run_migration_distinguishes_unavailable_from_recorded_no_change" time="0.015721">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_moving_date_and_location_records_removed_and_added_rows" time="0.010828">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_pagination_and_unknown_run_validation" time="0.008092">
+    <properties>
+      <property name="subtest_checks" value="12" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_pagination_returns_stable_rows_and_full_summary" time="0.011586">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_receipt_correction_changes_four_days_and_excludes_other_series" time="0.014252">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_same_closing_with_changed_movement_columns_is_still_a_change" time="0.03674">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_changes.ChangeEvidenceTest" name="test_void_retains_before_values_for_removed_series" time="0.013756">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_coincidental_user_template_filenames_are_never_claimed_as_seeded_runs" time="0.090329">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_completed_legacy_marker_does_not_require_private_progress" time="0.103402">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_curated_file_has_exactly_fifty_distinct_events_and_preserves_sample_prefix" time="0.000843">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_each_teaching_scenario_has_real_retained_run_evidence" time="0.107509">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_expected_failure_commit_before_checkpoint_is_recovered_without_extra_failures" time="0.102566">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_fresh_default_demo_publishes_fifty_events_and_real_quality_examples" time="0.083103">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_original_series_match_existing_oracle_and_new_series_match_hand_calculation" time="0.088732">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_partial_scenario_failure_leaves_no_marker_and_business_retries_safely" time="0.115137">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_repeat_demo_accepts_no_new_versions_and_preserves_business_values" time="0.115117">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_repeat_demo_retains_additional_existing_user_events" time="0.112735">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_restart_immediately_before_recovery_reuses_diagnostic_runs" time="0.104416">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_review_revision_120_preserves_fifty_events_and_raises_original_series_to_85" time="0.087194">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_unexpected_pipeline_failure_still_propagates_without_completion_marker" time="0.056806">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_demo.DefaultDemoTest" name="test_validation_commit_before_checkpoint_is_recovered_without_duplicate_rejects" time="0.103899">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.CliAcceptanceTest" name="test_cli_a01_documented_workflow_matches_oracle_and_exports" time="0.421736">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.CliAcceptanceTest" name="test_cli_a02_exit_two_publishes_valid_rows_and_safe_replay" time="0.400408">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.CliAcceptanceTest" name="test_cli_a03_malformed_csv_rolls_back_then_retry_succeeds" time="0.556671">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.CliAcceptanceTest" name="test_cli_a04_schema_and_invalid_horizon_are_observable_without_state_loss" time="0.514539">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.CliAcceptanceTest" name="test_cli_a05_missing_database_fails_without_creating_it" time="0.158755">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b01_malformed_json_utf8_and_wrong_shapes_are_nonmutating" time="0.179136">
+    <properties>
+      <property name="subtest_checks" value="7" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b02_malformed_csv_after_valid_row_is_atomic_and_retryable" time="0.17163">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b03_ten_mib_utf8_boundary_is_enforced_over_http" time="1.170733">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b04_reader_sees_old_snapshot_while_import_is_atomic_and_busy" time="0.237879">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b05_publication_failure_preserves_state_and_releases_import_lock" time="0.182157">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_interface_acceptance.HttpAcceptanceTest" name="test_http_b06_html_like_source_values_stay_data_with_browser_defenses" time="0.169592">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_atomic_backdated_transfer_replacement_rolls_back_every_account_and_retries" time="0.032935">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_canonical_duplicates_conflicts_and_rejected_rows_do_not_replace_accepted_versions" time="0.040298">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_export_keeps_one_snapshot_when_another_writer_commits_mid_export" time="0.026964">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_full_replacement_revision_matrix_is_arrival_order_independent" time="0.200339">
+    <properties>
+      <property name="subtest_checks" value="3" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_negative_stock_carries_exact_fractional_quantities_through_gap_days" time="0.010704">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_per_item_reconciliation_detects_errors_hidden_by_unchanged_global_checksum" time="0.010624">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_replacement_void_and_restore_remove_obsolete_series_and_leading_days" time="0.024539">
+    <properties>
+      <property name="subtest_checks" value="4" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_inventory_acceptance.InventoryAcceptanceTest" name="test_seeded_shuffled_batches_match_independent_integer_daily_oracle" time="0.497944">
+    <properties>
+      <property name="subtest_checks" value="54" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_password_cli.PasswordCliTest" name="test_hidden_prompt_changes_password_without_printing_it_or_resetting_on_startup" time="0.298379">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_password_cli.PasswordCliTest" name="test_mismatch_or_short_password_preserves_existing_credentials" time="0.091094">
+    <properties>
+      <property name="subtest_checks" value="2" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_password_cli.PasswordCliTest" name="test_nonexistent_database_does_not_prompt_or_create_a_file" time="0.005723">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.GeneratorTest" name="test_100k_generator_covers_all_types_and_source_locations_for_every_item" time="0.661703">
+    <properties>
+      <property name="subtest_checks" value="100" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.GeneratorTest" name="test_reproducible_row_count_types_and_intentional_quality_cases" time="0.03051">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.GeneratorTest" name="test_zero_and_invalid_row_counts" time="0.002128">
+    <properties>
+      <property name="subtest_checks" value="3" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_backdated_quantity_correction_recalculates_later_days" time="0.019766">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_calendar_gap_includes_leap_day" time="0.010055">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_catalog_duplicate_and_unit_changes_rollback_all_catalog_additions" time="0.008602">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_changed_missing_duplicate_or_empty_header_fails_observably" time="0.02512">
+    <properties>
+      <property name="subtest_checks" value="4" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_conflicting_same_version_is_quarantined" time="0.014358">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_correction_replaces_date_type_and_location" time="0.021257">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_correction_sample_matches_separate_hand_computed_oracle" time="0.012906">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_duplicate_import_is_idempotent_including_decimal_normalization" time="0.016024">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_empty_batch_preserves_existing_balances" time="0.014534">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_failure_rolls_back_ledger_and_publication_then_retry_succeeds" time="0.018545">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_fatal_csv_after_valid_row_rolls_back_and_retains_raw_audit" time="0.019418">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_header_only_input_is_valid" time="0.007782">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_invalid_horizon_fails_before_mutation_with_zero_consumed_rows" time="0.014621">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_last_supported_calendar_date_can_be_published" time="0.008655">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_later_through_cannot_truncate_published_horizon" time="0.011281">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_latest_event_extends_horizon_and_gap_days" time="0.0108">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_malformed_rows_are_quarantined_while_valid_rows_commit" time="0.010593">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_maximum_quantity_and_fraction_are_exact" time="0.008517">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_negative_stock_is_allowed_and_visibly_flagged" time="0.009489">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_older_revision_arriving_later_cannot_replace_newer_revision" time="0.01497">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_raw_record_outcomes_and_accounting_survive_mixed_batch_failure_retry" time="0.01619">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_reconciliation_detects_same_net_daily_measure_corruption" time="0.010031">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_sample_matches_hand_computed_oracle_and_equation" time="0.011071">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_shuffled_revisions_and_split_batches_match_single_rebuild" time="0.04292">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_transfer_correction_updates_both_legs" time="0.018586">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_void_replaces_contribution_and_later_revision_can_restore" time="0.016685">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_pipeline.InventoryTest" name="test_wrong_row_width_rejects_only_bad_rows" time="0.009871">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_reporting.ReportRunnerAcceptanceTest" name="test_failed_rerun_invalidates_old_pass_artifacts" time="0.002651">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_reporting.ReportRunnerAcceptanceTest" name="test_success_writes_matching_json_junit_and_clears_old_failure_log" time="0.012909">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_resilience_acceptance.ResilienceAcceptanceTest" name="test_daily_equation_remains_exact_when_intermediate_sum_exceeds_int64" time="0.018142">
+    <properties>
+      <property name="subtest_checks" value="2" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_resilience_acceptance.ResilienceAcceptanceTest" name="test_hard_process_death_rolls_back_uncommitted_targets_and_retry_recovers" time="0.136509">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_resilience_acceptance.ResilienceAcceptanceTest" name="test_posting_ids_are_deterministic_and_audit_ids_are_unique_iso_timestamps" time="0.026565">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_resilience_acceptance.ResilienceAcceptanceTest" name="test_same_millisecond_runs_share_one_latest_audit_order" time="0.014033">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_absolute_folder_with_spaces_is_honored" time="0.002792">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_browser_opens_only_after_server_is_bound" time="0.000623">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_busy_port_does_not_open_an_unrelated_service" time="0.00037">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_invalid_port_is_rejected_before_seeding" time="0.001075">
+    <properties>
+      <property name="subtest_checks" value="3" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_no_browser_and_relative_folder_work_from_another_directory" time="0.000932">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_old_python_receives_clear_message_before_application_import" time="0.058947">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_startup.StartupTest" name="test_unavailable_browser_keeps_server_usable" time="0.001238">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.ShowcaseTest" name="test_missing_evidence_never_claims_verification" time="0.000512">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.ShowcaseTest" name="test_recorded_evidence_is_parsed_without_hardcoded_numbers" time="0.001768">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_bad_schema_fails_without_replacing_previous_balances" time="0.175668">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_catalog_import_is_atomic_and_supports_equal_filenames" time="0.18486">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_csv_import_retains_before_after_and_replay_is_zero_change" time="0.182722">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_default_demo_downloads_have_fifty_distinct_movements_and_matching_catalogs" time="0.16538">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_ordinary_workspaces_do_not_claim_seeded_demo_examples" time="0.196988">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_origin_token_and_host_guards_block_mutation" time="0.185456">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_rejects_bad_filename_payload_size_and_content_type" time="0.16507">
+    <properties>
+      <property name="subtest_checks" value="4" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_sample_routes_and_changes_pagination_validation" time="0.171395">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+  <testcase classname="tests.test_web.WebTest" name="test_valid_rows_publish_with_visible_quarantine" time="0.180659">
+    <properties>
+      <property name="subtest_checks" value="0" />
+    </properties>
+  </testcase>
+</testsuite>

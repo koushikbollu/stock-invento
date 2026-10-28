@@ -1,0 +1,3533 @@
+{
+  "arrival_order": {
+    "adjacent_date_inversions": 48950
+  },
+  "catalog_items": 100,
+  "catalog_locations": 8,
+  "counts": {
+    "duplicate": 990,
+    "invalid_precision": 780,
+    "new": 98034,
+    "revision": 196
+  },
+  "date_range": {
+    "first": "2026-01-01",
+    "last": "2026-03-31"
+  },
+  "generator_version": "2",
+  "normal_coverage": {
+    "adjustment_signs": {
+      "negative": 12209,
+      "positive": 12300
+    },
+    "basis": "New revision-1 rows only; excludes intentional duplicates, invalid-precision rows, and revisions.",
+    "distinct_item_source_locations": 800,
+    "items_with_all_movement_types": 100,
+    "items_with_all_source_locations": 100,
+    "items_with_normal_rows": 100,
+    "per_item": {
+      "ITEM-000": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-001": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-002": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-003": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-004": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-005": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-006": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-007": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-008": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-009": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-010": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-011": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-012": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-013": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-014": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-015": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-016": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-017": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-018": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-019": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-020": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-021": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-022": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-023": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-024": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-025": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-026": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-027": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-028": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-029": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-030": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-031": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-032": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-033": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-034": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-035": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-036": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-037": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-038": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-039": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-040": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-041": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-042": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-043": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-044": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-045": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-046": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-047": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-048": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-049": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-050": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-051": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-052": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-053": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-054": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-055": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-056": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-057": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-058": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-059": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-060": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-061": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 982,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-062": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-063": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-064": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-065": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-066": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-067": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-068": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-069": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-070": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-071": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-072": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-073": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-074": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-075": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 246,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-076": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-077": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-078": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-079": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-080": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-081": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-082": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-083": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-084": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-085": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-086": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-087": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-088": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-089": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-090": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 246,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-091": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-092": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-093": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 246,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-094": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 981,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 246
+        }
+      },
+      "ITEM-095": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-096": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-097": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-098": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      },
+      "ITEM-099": {
+        "movement_types": [
+          "ADJUSTMENT",
+          "ISSUE",
+          "RECEIPT",
+          "TRANSFER"
+        ],
+        "normal_rows": 980,
+        "source_locations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "transfer_destinations": [
+          "WH-00",
+          "WH-01",
+          "WH-02",
+          "WH-03",
+          "WH-04",
+          "WH-05",
+          "WH-06",
+          "WH-07"
+        ],
+        "type_counts": {
+          "ADJUSTMENT": 245,
+          "ISSUE": 245,
+          "RECEIPT": 245,
+          "TRANSFER": 245
+        }
+      }
+    }
+  },
+  "physical_rows": 100000,
+  "seed": 42
+}

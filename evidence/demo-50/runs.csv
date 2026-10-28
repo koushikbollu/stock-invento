@@ -1,0 +1,8 @@
+run_id,source_file,started_at,finished_at,status,input_count,accepted_count,duplicate_count,rejected_count,rolled_back_count,output_count,duration_ms,error,published_through,impact_recorded
+234efd08-4f00-4e20-8842-8948603cdae9,movements.8e0d8e3bac20.csv,2026-10-27T23:13:22.168+00:00,2026-10-27T23:13:22.171+00:00,succeeded,50,0,50,0,0,47,4,,2026-01-04,1
+b2379d27-ac2f-4de5-8399-fd1ca7a88134,demo_expected_schema_failure.4af8650f481f.csv,2026-10-27T23:13:22.160+00:00,2026-10-27T23:13:22.162+00:00,failed,0,0,0,0,0,0,1,"unexpected schema: expected exactly event_id,revision,effective_date,movement_type,item_id,location_id,to_location_id,quantity,is_void",,0
+e6c8efeb-bd64-439d-ad18-f2298c2fd52d,demo_quality_examples.ab02b5f09685.csv,2026-10-27T23:13:22.152+00:00,2026-10-27T23:13:22.155+00:00,succeeded_with_rejects,3,0,0,3,0,47,3,,2026-01-04,1
+f0fb99e6-3f6e-4256-aac7-289e1576b602,demo_restore_transfer.e628213ea3d9.csv,2026-10-27T23:13:22.144+00:00,2026-10-27T23:13:22.147+00:00,succeeded,1,1,0,0,0,47,3,,2026-01-04,1
+1eb2a82b-c6e4-4b74-9890-b1d20c658475,demo_cancel_transfer.7b00e33d54e4.csv,2026-10-27T23:13:22.136+00:00,2026-10-27T23:13:22.139+00:00,succeeded,1,1,0,0,0,47,3,,2026-01-04,1
+157a904a-7a76-41b0-830c-c55ad784d767,corrections.csv,2026-10-27T23:13:22.126+00:00,2026-10-27T23:13:22.129+00:00,succeeded,1,1,0,0,0,47,3,,2026-01-04,1
+dfc63e49-59a2-460b-bbde-eebb5470ec49,movements.csv,2026-10-27T23:13:22.120+00:00,2026-10-27T23:13:22.125+00:00,succeeded,50,50,0,0,0,47,4,,2026-01-04,1

@@ -1,0 +1,47 @@
+{
+  "movement_records": 50,
+  "historical_versions": 53,
+  "daily_balance_rows": 47,
+  "items": 5,
+  "locations": 3,
+  "reconciliation_passed": true,
+  "negative_days": 4,
+  "negative_examples": [
+    {
+      "balance_date": "2026-01-02",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-9.875"
+    },
+    {
+      "balance_date": "2026-01-03",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-14.000"
+    },
+    {
+      "balance_date": "2026-01-04",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-14.000"
+    },
+    {
+      "balance_date": "2026-01-04",
+      "item_id": "ITEM-E",
+      "location_id": "WH-B",
+      "closing": "-3.625"
+    }
+  ],
+  "intentional_rejects": 3,
+  "intentional_schema_failures": 1,
+  "recovery_duplicates": 50,
+  "scenario_runs": {
+    "cancellation": "1eb2a82b-c6e4-4b74-9890-b1d20c658475",
+    "correction": "157a904a-7a76-41b0-830c-c55ad784d767",
+    "failure": "b2379d27-ac2f-4de5-8399-fd1ca7a88134",
+    "initial": "dfc63e49-59a2-460b-bbde-eebb5470ec49",
+    "recovery": "234efd08-4f00-4e20-8842-8948603cdae9",
+    "restoration": "f0fb99e6-3f6e-4256-aac7-289e1576b602",
+    "validation": "e6c8efeb-bd64-439d-ad18-f2298c2fd52d"
+  }
+}

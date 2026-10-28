@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "method": "Clean copied package launched from a path containing spaces, with a different invoking working directory; real loopback HTTP imports and restart.",
+  "python": "3.14.6",
+  "system": "Darwin",
+  "architecture": "arm64",
+  "command": "python3 <extracted-project>/run_demo.py --no-browser --data-dir \"var/fresh review\" --port <available-local-port>",
+  "initial_metrics": {
+    "current_events": 50,
+    "history_versions": 53,
+    "daily_rows": 47,
+    "negative_balance_days": 4,
+    "rejected_rows": 3,
+    "voided_events": 0
+  },
+  "initial_runs": 7,
+  "reconciliation_checks": 15,
+  "negative_examples": [
+    {
+      "balance_date": "2026-01-02",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-9.875"
+    },
+    {
+      "balance_date": "2026-01-03",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-14.000"
+    },
+    {
+      "balance_date": "2026-01-04",
+      "item_id": "ITEM-D",
+      "location_id": "WH-C",
+      "closing": "-14.000"
+    },
+    {
+      "balance_date": "2026-01-04",
+      "item_id": "ITEM-E",
+      "location_id": "WH-B",
+      "closing": "-3.625"
+    }
+  ],
+  "correction_accepted": 1,
+  "correction_impact_rows": 4,
+  "correction_closing": "85.000",
+  "replay_duplicates": 1,
+  "replay_impact_rows": 0,
+  "restart_preserved_metrics": true,
+  "restart_added_only_two_duplicate_audits": true,
+  "project_relative_data_directory_verified": true,
+  "catalog_download_counts": {
+    "movements": 50,
+    "items": 5,
+    "locations": 3
+  },
+  "export_snapshot_verified": true,
+  "syntax_python_310_files": 23,
+  "unix_launchers_syntax_passed": true,
+  "windows_launcher_crlf_and_arguments_checked": true,
+  "limitations": [
+    "Runtime executed on macOS with Python 3.14.6. Windows and Linux launchers were reviewed, not executed on those systems."
+  ]
+}

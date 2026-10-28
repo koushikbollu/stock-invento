@@ -1,0 +1,181 @@
+{
+  "business_output_identical_on_rerun": true,
+  "first_run": {
+    "accepted_count": 98230,
+    "changed_balance_rows": 71839,
+    "duplicate_count": 990,
+    "duration_ms": 4434,
+    "error": null,
+    "finished_at": "2026-10-27T22:11:33.409+00:00",
+    "impact_recorded": 1,
+    "input_count": 100000,
+    "output_count": 71839,
+    "published_through": "2026-03-31",
+    "rejected_count": 780,
+    "rolled_back_count": 0,
+    "run_id": "fc28de6e-458d-4871-9be6-9285ad6c0d7e",
+    "source_file": "movements.csv",
+    "started_at": "2026-10-27T22:11:28.975+00:00",
+    "status": "succeeded_with_rejects"
+  },
+  "generation_seconds": 0.404325,
+  "ingestion_and_reconciliation_seconds": 4.597808,
+  "machine": "arm64",
+  "measured_at": "2026-10-27T22:11:40.991231+00:00",
+  "metrics": {
+    "current_events": 98034,
+    "daily_rows": 71839,
+    "history_versions": 98230,
+    "negative_balance_days": 35888,
+    "rejected_rows": 780,
+    "voided_events": 0
+  },
+  "optimization": "For larger histories, rebuild only affected item/location/date partitions while preserving atomic publication; measure first.",
+  "physical_rows": 100000,
+  "python": "3.14.6",
+  "reconciliation": [
+    {
+      "actual": "612919.748",
+      "check_name": "source_to_postings_receipts",
+      "details": "Highest non-void revision vs generated postings",
+      "expected": "612919.748",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "613857.657",
+      "check_name": "source_to_postings_issues",
+      "details": "Highest non-void revision vs generated postings",
+      "expected": "613857.657",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "610748.338",
+      "check_name": "source_to_postings_transfers_in",
+      "details": "Highest non-void revision vs generated postings",
+      "expected": "610748.338",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "610748.338",
+      "check_name": "source_to_postings_transfers_out",
+      "details": "Highest non-void revision vs generated postings",
+      "expected": "610748.338",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "-1310.552",
+      "check_name": "source_to_postings_adjustments",
+      "details": "Highest non-void revision vs generated postings",
+      "expected": "-1310.552",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "122542",
+      "check_name": "posting_row_count",
+      "details": "Two legs per transfer; one for other movements",
+      "expected": "122542",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "0",
+      "check_name": "posting_mapping_violations",
+      "details": "Each posting matches its current source event, date, item, location and movement type",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "610748.338",
+      "check_name": "transfer_conservation",
+      "details": "Transfers conserve total stock",
+      "expected": "610748.338",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "0",
+      "check_name": "daily_balance_equation_violations",
+      "details": "Every row satisfies opening + net movement = closing",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "0",
+      "check_name": "opening_continuity_violations",
+      "details": "Opening equals previous day's closing",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "0",
+      "check_name": "daily_movement_grain_violations",
+      "details": "Daily movement columns equal posting totals at date/item/location grain",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "0",
+      "check_name": "first_day_opening_violations",
+      "details": "First modeled day starts at zero",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "0",
+      "check_name": "item_closing_stock_violations",
+      "details": "Each item's total closing equals its external net movement; units are never combined",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    },
+    {
+      "actual": "-2248.461",
+      "check_name": "global_closing_stock",
+      "details": "Arithmetic checksum across quantities; per-item checks carry physical meaning",
+      "expected": "-2248.461",
+      "passed": true,
+      "variance": "0.000"
+    },
+    {
+      "actual": "0",
+      "check_name": "run_row_accounting_violations",
+      "details": "Every consumed row has exactly one recorded outcome",
+      "expected": "0",
+      "passed": true,
+      "variance": "0"
+    }
+  ],
+  "rerun": {
+    "accepted_count": 0,
+    "changed_balance_rows": 0,
+    "duplicate_count": 99220,
+    "duration_ms": 4570,
+    "error": null,
+    "finished_at": "2026-10-27T22:11:39.503+00:00",
+    "impact_recorded": 1,
+    "input_count": 100000,
+    "output_count": 71839,
+    "published_through": "2026-03-31",
+    "rejected_count": 780,
+    "rolled_back_count": 0,
+    "run_id": "256a7c30-0dca-4254-8372-1f8554109804",
+    "source_file": "movements.csv",
+    "started_at": "2026-10-27T22:11:34.933+00:00",
+    "status": "succeeded_with_rejects"
+  },
+  "rerun_seconds": 4.653831,
+  "rows_per_second": 21749.5,
+  "scope": "Single local run with generator v2; includes CSV validation, audit/history writes, full target rebuild, reconciliation, retained balance comparisons and commit. Not a capacity guarantee or a measured speedup.",
+  "seed": 42,
+  "system": "Darwin"
+}

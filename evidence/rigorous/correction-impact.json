@@ -1,0 +1,164 @@
+{
+  "has_snapshot": true,
+  "limit": 100,
+  "offset": 0,
+  "rows": [
+    {
+      "after": {
+        "adjustments": "0.000",
+        "closing": "110.000",
+        "issues": "0.000",
+        "opening": "0.000",
+        "receipts": "110.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "after_closing": "110.000",
+      "after_opening": "0.000",
+      "balance_date": "2026-01-01",
+      "before": {
+        "adjustments": "0.000",
+        "closing": "100.000",
+        "issues": "0.000",
+        "opening": "0.000",
+        "receipts": "100.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "before_closing": "100.000",
+      "before_opening": "0.000",
+      "change_type": "updated",
+      "changed_fields": [
+        "receipts",
+        "closing"
+      ],
+      "closing_delta": "10.000",
+      "item_id": "ITEM-A",
+      "location_id": "WH-A"
+    },
+    {
+      "after": {
+        "adjustments": "0.000",
+        "closing": "75.000",
+        "issues": "15.000",
+        "opening": "110.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "20.000"
+      },
+      "after_closing": "75.000",
+      "after_opening": "110.000",
+      "balance_date": "2026-01-02",
+      "before": {
+        "adjustments": "0.000",
+        "closing": "65.000",
+        "issues": "15.000",
+        "opening": "100.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "20.000"
+      },
+      "before_closing": "65.000",
+      "before_opening": "100.000",
+      "change_type": "updated",
+      "changed_fields": [
+        "opening",
+        "closing"
+      ],
+      "closing_delta": "10.000",
+      "item_id": "ITEM-A",
+      "location_id": "WH-A"
+    },
+    {
+      "after": {
+        "adjustments": "0.000",
+        "closing": "75.000",
+        "issues": "0.000",
+        "opening": "75.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "after_closing": "75.000",
+      "after_opening": "75.000",
+      "balance_date": "2026-01-03",
+      "before": {
+        "adjustments": "0.000",
+        "closing": "65.000",
+        "issues": "0.000",
+        "opening": "65.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "before_closing": "65.000",
+      "before_opening": "65.000",
+      "change_type": "updated",
+      "changed_fields": [
+        "opening",
+        "closing"
+      ],
+      "closing_delta": "10.000",
+      "item_id": "ITEM-A",
+      "location_id": "WH-A"
+    },
+    {
+      "after": {
+        "adjustments": "0.000",
+        "closing": "75.000",
+        "issues": "0.000",
+        "opening": "75.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "after_closing": "75.000",
+      "after_opening": "75.000",
+      "balance_date": "2026-01-04",
+      "before": {
+        "adjustments": "0.000",
+        "closing": "65.000",
+        "issues": "0.000",
+        "opening": "65.000",
+        "receipts": "0.000",
+        "transfers_in": "0.000",
+        "transfers_out": "0.000"
+      },
+      "before_closing": "65.000",
+      "before_opening": "65.000",
+      "change_type": "updated",
+      "changed_fields": [
+        "opening",
+        "closing"
+      ],
+      "closing_delta": "10.000",
+      "item_id": "ITEM-A",
+      "location_id": "WH-A"
+    }
+  ],
+  "run": {
+    "accepted_count": 1,
+    "duplicate_count": 0,
+    "duration_ms": 2,
+    "error": null,
+    "finished_at": "2026-10-27T23:27:59.056+00:00",
+    "impact_recorded": 1,
+    "input_count": 1,
+    "output_count": 11,
+    "published_through": "2026-01-04",
+    "rejected_count": 0,
+    "rolled_back_count": 0,
+    "run_id": "9a7e6977-245e-4fec-b17c-7fbf82bb4f04",
+    "source_file": "corrections.csv",
+    "started_at": "2026-10-27T23:27:59.054+00:00",
+    "status": "succeeded"
+  },
+  "run_id": "9a7e6977-245e-4fec-b17c-7fbf82bb4f04",
+  "summary": {
+    "affected_series": 1,
+    "changed_rows": 4,
+    "from_date": "2026-01-01",
+    "through_date": "2026-01-04"
+  },
+  "total": 4
+}

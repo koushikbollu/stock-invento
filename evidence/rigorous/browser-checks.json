@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "executed_at": "2026-10-27T23:35:23.198253+00:00",
+  "method": "Computer Use actions against an isolated local demo; actual file chooser, form submission, tab navigation, keyboard disclosure, and downloaded CSV inspection.",
+  "checks": [
+    {
+      "id": "UI-01",
+      "scenario": "Fresh baseline",
+      "status": "passed",
+      "observed": "50 current events,53versions,47daily rows,3seededrejects,4negativebalance rows."
+    },
+    {
+      "id": "UI-02",
+      "scenario": "File preview",
+      "status": "passed",
+      "observed": "Real correction file picker exposed filename/CSV preview before import; ledger remained unchanged."
+    },
+    {
+      "id": "UI-03",
+      "scenario": "Correction publication",
+      "status": "passed",
+      "observed": "review_correction.csv accepted1,duplicate0,rejected0; currentevents50/history54."
+    },
+    {
+      "id": "UI-04",
+      "scenario": "Retained correction comparison",
+      "status": "passed",
+      "observed": "Four rows across ITEM-A/WH-A:110.000\u2192120.000 onJanuary1;75.000\u219285.000 onJanuary2\u20134;delta10.000 each."
+    },
+    {
+      "id": "UI-05",
+      "scenario": "Safe browser replay",
+      "status": "passed",
+      "observed": "Samefile accepted0,duplicate1,rejected0,changedbalance rows0."
+    },
+    {
+      "id": "UI-06",
+      "scenario": "Mixed valid and invalid rows",
+      "status": "passed",
+      "observed": "browser_mixed.csv accepted1,rejected1;51current events,55versions,47daily rows,4negative rows,4rejects."
+    },
+    {
+      "id": "UI-07",
+      "scenario": "Literal invalid payload",
+      "status": "passed",
+      "observed": "Quarantine showed the exact HTML-like event ID as source text;zero imageelements were created in reject-list."
+    },
+    {
+      "id": "UI-08",
+      "scenario": "Fatal schema failure",
+      "status": "passed",
+      "observed": "Badheader returned visible unexpected-schema reason;events51/history55/negative4/rejected4 retained."
+    },
+    {
+      "id": "UI-09",
+      "scenario": "Reconciliation",
+      "status": "passed",
+      "observed": "All15 current reconciliation rows displayed Passed after correction,mixed import,and schema failure."
+    },
+    {
+      "id": "UI-10",
+      "scenario": "Example toggle restoration",
+      "status": "passed",
+      "observed": "From ITEM-D/WH-C,View opens ITEM-A/WH-A;Close restores D/C,blankdates,and four filteredrows with three exact negative closings."
+    },
+    {
+      "id": "UI-11",
+      "scenario": "Filtered CSV export",
+      "status": "passed",
+      "observed": "Actual browser download contained4D/C rows:30.250,-9.875,-14.000,-14.000."
+    },
+    {
+      "id": "UI-12",
+      "scenario": "Bottom disclosures",
+      "status": "passed",
+      "observed": "Process guide opened with click and closed with Enter;Achievements opened and closed;both endedcollapsed."
+    },
+    {
+      "id": "UI-13",
+      "scenario": "Failure audit",
+      "status": "passed",
+      "observed": "Pipeline runs exposed expandableFailure reason with exact unexpected-schema explanation."
+    },
+    {
+      "id": "UI-14",
+      "scenario": "Immutable revision history",
+      "status": "passed",
+      "observed": "Eventhistory displayed55versions and retained Superseded \u00b7 void transferhistory."
+    },
+    {
+      "id": "UI-15",
+      "scenario": "Runtime and layout",
+      "status": "passed",
+      "observed": "At1280CSSpixel viewport,documentwidth1280,no document-level overflow;browsercapturednoerror/warnlogs."
+    }
+  ],
+  "initial_metrics": {
+    "current_events": 50,
+    "history_versions": 53,
+    "daily_rows": 47,
+    "rejected_rows": 3,
+    "negative_balance_days": 4
+  },
+  "final_metrics": {
+    "current_events": 51,
+    "history_versions": 55,
+    "daily_rows": 47,
+    "rejected_rows": 4,
+    "negative_balance_days": 4
+  },
+  "correction_run_id": "36ab7b8d-7659-4ea8-8c7b-801a810c0ab5",
+  "mixed_run_id": "9b020450-f55f-4271-8a29-b36cda605119",
+  "failed_run_id": "0baaf89d-f54f-4ba0-b8c2-a2798404355c",
+  "limitations": [
+    "Browser checks executed on macOS in the in-app browser at1280CSSpixel width;this is not an all-browser/all-device or full security certification.",
+    "The reviewed demo on port8768 used a different database and was not changed by these imports."
+  ]
+}

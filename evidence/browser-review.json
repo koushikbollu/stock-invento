@@ -1,0 +1,42 @@
+{
+  "version": "1.1.0",
+  "method": "Computer Use browser verification against a fresh local enhanced demo database",
+  "candidate_personal_review": false,
+  "checks": [
+    "Built & verified panel displayed4implemented capabilities,52passingtests,100000rows/4.60seconds,seed42,and100of100itemscoveringalltypesandall8sources",
+    "Correction impact selected original correction:100.000to110.000onJan1and65.000to75.000onJan2throughJan4",
+    "Selected review_correction.csv through real file chooser and verified filename and plain text CSV preview before import",
+    "Explicit Import & publish action returned1accepted,0duplicates,0quarantined,4changed daily rows across1item/locationseries",
+    "View run impact showed110.000to120.000onJan1and75.000to85.000onJan2throughJan4,eachdelta10.000",
+    "Current ledger and recorded benchmark were shown separately; sample original revision history remained selectable",
+    "Renamed demo browser title and visible workspace header verified as Stock Invento after local server restart.",
+    "Achievements and Process guide are collapsed on initial page load.",
+    "Both disclosures expanded with mouse clicks and collapsed with Enter; recorded evidence and process sample links remained available on expansion.",
+    "Collapsed layout visually verified with live inventory metrics visible immediately below the achievements summary.",
+    "Approved modern layout retained with original teal/forest palette: primary#0e766b, navigation#142b33 and warm pale canvas#f6f7f3.",
+    "Fresh default demo displayed50current movements,51historical versions,47daily rows,zero rejects andzero negative days.",
+    "Process guide moved outside the import grid to the bottom before achievements; import form now spans the full available width.",
+    "Both bottom dropdown headers verified asrgb(23,75,66), both initiallycollapsed; no document-level horizontal overflow at the review viewport.",
+    "All six report tabs displayed metadata-driven demo explanations linked to actual records.",
+    "Fresh teaching workspace:50active movements,53versions,47daily rows,3deliberate rejects and7real runs.",
+    "Reconciliation displayed15checks; quarantine displayed3source rows with seeded-error explanations; eventhistory displayed53versions including Superseded \u00b7 void.",
+    "Recovery comparison opened the actual retained recovery run and displayed0changedbalance rows.",
+    "Ordinary non-demo workspaces suppress the teaching hints; alerts for other failures remain visible.",
+    "Final fresh workspace displayed 50 current movements, 53 historical versions, 47 daily rows, 3 intentional rejects, 4 negative closing rows, and 7 runs.",
+    "Native browser clicks opened View this example as Close example, and the second click restored the previous filters and page. A second cycle restored the custom ITEM-D/WH-C shortage filter and cleared the example dates.",
+    "ITEM-D/WH-C showed 30.250 on January 1, -9.875 on January 2, and -14.000 on January 3 and 4, with negative-inventory accessibility text and a declining trend chart.",
+    "Failure reason expanded inline and exposed the exact unexpected-schema error.",
+    "Both bottom disclosures remained collapsed after the final page load. The dashboard preview retains the approved green palette and the live negative-stock count of 4."
+  ],
+  "additional_automated_checks": [
+    "HTTP import with quarantine, fatal schema rollback, token/origin/host guards, atomic reference catalog import, same-filename catalogs, request/CSV limits, legacy migration, exact large deltas and pagination",
+    "75 Python unit tests and 11 optional JavaScript helper cases passed.",
+    "A clean copied package launched from a path containing spaces and a different invoking working directory. Real HTTP correction, replay, export, and restart checks passed; details are in portable-check.json."
+  ],
+  "limitations": [
+    "Windows and Linux launchers were syntax-reviewed but not executed on those operating systems.",
+    "Executed onPython3.14.6onmacOS; Python3.10+compatibility follows the usedstandardlibraryAPIs."
+  ],
+  "display_name": "Stock Invento",
+  "historical_note": "Earlier checks describe prior iterations. The final fresh workspace counts and behavior are recorded in the final checks below and evidence/demo-50."
+}

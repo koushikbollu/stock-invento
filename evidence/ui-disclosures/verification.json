@@ -1,0 +1,15 @@
+{
+  "evidence": [
+    "python-tests.json",
+    "junit.xml",
+    "unit-tests.txt",
+    "ui-helpers.txt",
+    "browser-checks.json",
+    "dropdowns-preview.png"
+  ],
+  "passed": true,
+  "scope": "Current UI disclosure refinements plus the existing full regression suite.",
+  "subtest_checks": 222,
+  "test_count": 117,
+  "ui_helper_checks": 11
+}
