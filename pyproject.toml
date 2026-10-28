@@ -1,0 +1,10 @@
+[project]
+name = "inventory-ledger"
+version = "1.1.0"
+description = "Stock Invento: local inventory movement processing, revision history, daily balances, and reconciliation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.inventory-ledger]
+execution = "Run python3 -m inventory from the repository root; no package installation is needed."
