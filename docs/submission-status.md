@@ -4,8 +4,8 @@ Public GitHub publication was authorized on 28 October 2026. This folder is the 
 
 - Application source, tests, synthetic inputs/outputs, schema, design notes, setup, learning guide, and AI prompt records: included.
 - Repository target: `koushikbollu/stock-invento`.
-- Public repository creation and push: pending until confirmed by the remote service.
-- Anonymous access verification: pending repository publication.
+- Public repository creation and push: completed on 28 October 2026 at https://github.com/koushikbollu/stock-invento.
+- Anonymous access verification: passed using unauthenticated GitHub repository/tree requests; repository is public and required files are present.
 - Final recruitment portal submission: pending; creating a repository does not submit its URL.
 - Candidate personal source review and walkthrough: pending until performed.
 
